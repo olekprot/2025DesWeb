@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucle FOR</title>
+</head>
+<body>
+    <h1>Bucle For</h1>
+
+
+    <script>
+        // Array con lista de Frutas
+        let frutas =['manzana', 'pera', 'uva'];
+
+        // Añadir un elemento al final del array
+        frutas.push('naranja');
+        frutas.push('sandia');
+
+        // Variable que contendra el HTML
+        let miHTML="<ul>";
+        
+            // Bucle for
+      for(let i = 0; i < frutas.length; i++) {
+        miHTML += "<li>Elemento " + i + " es "+frutas[i]+"</li>";
+      }
+        miHTML += "</ul>";
+
+        document.write(miHTML);
+
+
+    </script>
+</body>
+</html>
