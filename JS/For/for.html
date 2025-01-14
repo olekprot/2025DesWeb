@@ -8,6 +8,8 @@
 <body>
     <h1>Bucle For</h1>
 
+    <ul></ul>
+    <button id="btn1">Eliminar último elemento</button>
 
     <script>
         // Array con lista de Frutas
@@ -18,16 +20,31 @@
         frutas.push('sandia');
 
         // Variable que contendra el HTML
-        let miHTML="<ul>";
+        let miHTML="";
         
             // Bucle for
       for(let i = 0; i < frutas.length; i++) {
         miHTML += "<li>Elemento " + i + " es "+frutas[i]+"</li>";
       }
-        miHTML += "</ul>";
 
-        document.write(miHTML);
+    document.querySelector('ul').innerHTML = miHTML;
 
+
+    document.querySelector('#btn1').addEventListener('click', eliminar);
+
+    function eliminar(){
+        frutas.pop();
+                // Variable que contendra el HTML
+                let miHTML="";
+        
+        // Bucle for
+  for(let i = 0; i < frutas.length; i++) {
+    miHTML += "<li>Elemento " + i + " es "+frutas[i]+"</li>";
+  }
+
+    document.querySelector('ul').innerHTML = miHTML;
+
+    }
 
     </script>
 </body>
