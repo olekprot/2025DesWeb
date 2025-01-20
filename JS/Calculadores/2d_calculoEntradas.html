@@ -7,15 +7,34 @@
     <title>Convertidor</title>
 
     <style>
+        :root{
+            --c1:tan;
+            --ff:sans-serif;
+            --bdrs:20px;
+        }
+
         body {
             font-family: sans-serif;
             max-width: 320px;
             margin: 10px auto;
+
+            min-height: 90dvh;
+            padding: 20px;
         }
 
         button {
             width: 100%;
+            border-radius: 20px;
+            background: none;
+            border: var(--c1) solid 1px;
+            color:var(--c1);
+            margin:8px 0 ; 
+
         }
+
+
+
+
     </style>
 </head>
 
@@ -41,8 +60,7 @@
             ['BBK', 80],
             ['Rolling Stones', 111],
             ['Sonar', 200],
-            ['AC-DC', 90],
-            ['Metalica', 80],
+            ['Fiesta de prau', 20],
             ['Tsunami', 120]
         ];
         const gestion=5;
