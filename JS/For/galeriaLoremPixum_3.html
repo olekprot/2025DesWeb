@@ -37,17 +37,34 @@
 </head>
 <body>
 <h1>Galería Lorem Pixum </h1>
+<select onchange="dibujarGaleria()" name="" id="longitudGaleria">
+    <option value="0">0</option>
+    <option value="10">10</option>
+    <option value="50">50</option>
+    <option value="100">100</option>
+    <option value="150">150</option>
+    <option value="200">200</option>
+    <option value="250">250</option>
+</select>
 <img src="https://picsum.photos/id/1/490/250" alt="" id="imgPrincipal">
 <a id="ruta" href="https://picsum.photos/id/1/490/250" target="_blank">https://picsum.photos/id/1/490/250</a>
     <ul></ul>
     <script>
 
-        function fragmento(){
+        function dibujarGaleria(){
+            let cantidadImagenes=document.querySelector('#longitudGaleria').value;
+            //mostramos en pantalla el restultado de la función llamada
+            document.querySelector('ul').innerHTML= fragmento(cantidadImagenes);
+           }
+
+
+
+        function fragmento(iteraciones){
             //Definimos variable que almacenará el contenido
             let miHTML='';
 
             //bucle
-            for(i=0; i<20; i++){
+            for(i=0; i<iteraciones; i++){
                 miHTML+=`
                 <li onclick="cargarImg(${i})">
                 <img src="https://picsum.photos/id/${i}/50/50" alt="Elemento ${i}">
@@ -59,8 +76,6 @@
             return miHTML;
         }
 
-        //mostramos en pantalla el restultado de la función llamada
-        document.querySelector('ul').innerHTML= fragmento();
 
 
 
