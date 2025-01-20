@@ -32,24 +32,29 @@
         img{
             max-width: 100%;
             display: block;
+            border-radius: 6px;;
         }
     </style>
 </head>
 <body>
 <h1>Galería Lorem Pixum </h1>
-<select onchange="dibujarGaleria()" name="" id="longitudGaleria">
-    <option value="0">0</option>
-    <option value="10">10</option>
-    <option value="50">50</option>
-    <option value="100">100</option>
-    <option value="150">150</option>
-    <option value="200">200</option>
-    <option value="250">250</option>
-</select>
+
 <img src="https://picsum.photos/id/1/490/250" alt="" id="imgPrincipal">
 <a id="ruta" href="https://picsum.photos/id/1/490/250" target="_blank">https://picsum.photos/id/1/490/250</a>
     <ul></ul>
-    <script>
+
+
+    <select onchange="dibujarGaleria()" name="" id="longitudGaleria">
+        <option value="0">0</option>
+        <option value="10">10</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+        <option value="150">150</option>
+        <option value="200">200</option>
+        <option value="250">250</option>
+    </select>
+
+<script>
 
         function dibujarGaleria(){
             let cantidadImagenes=document.querySelector('#longitudGaleria').value;
