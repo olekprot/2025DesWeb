@@ -39,7 +39,8 @@ En este respositorio de Github iremos volcando algunos de los ejercicios y prác
 - [Kevin Power](https://www.youtube.com/@KevinPowell)
 - [Kevin Power](https://www.youtube.com/@KevinPowell)
 - [Kevin Power](https://www.youtube.com/@KevinPowell)
-
+#### libros y referencias
+- Lea Verou
 
 
 ##### Conceptos Estrucutras Ui
