@@ -50,3 +50,27 @@ En este respositorio de Github iremos volcando algunos de los ejercicios y prác
 - Glasmorphism
 - Masonry - Estrucutra de Layout en cascada
 - Bento boxes
+
+
+## Referencias externas
+
+https://github.com/estefaniacn/freecodecamp-curso-javascript
+
+https://github.com/DulceAmaya/Curso-Javascript
+
+https://github.com/brayandiazc/aprendiendo-javaScript
+
+https://github.com/mouredev/hello-javascript
+
+https://github.com/crisdevux/ejercicios-javascript
+
+
+### Codepens Popular:
+- [Popular Codepen 2025](https://codepen.io/2025/popular/pens)
+- [Popular Codepen 2024](https://codepen.io/2024/popular/pens)
+- [Popular Codepen 2023](https://codepen.io/2023/popular/pens)
+- [Popular Codepen 2022](https://codepen.io/2022/popular/pens)
+- [Popular Codepen 2021](https://codepen.io/2021/popular/pens)
+- [Popular Codepen 2020](https://codepen.io/2020/popular/pens)
+- [Popular Codepen 2019](https://codepen.io/2019/popular/pens)
+- [Popular Codepen 2018](https://codepen.io/2019/popular/pens)

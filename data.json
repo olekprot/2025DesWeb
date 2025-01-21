@@ -1,6 +1,6 @@
 {
     "HTML y CSS": [
-      { "name": "Estructura básica", "path": "HTML y CSS/estructura-basica.html" },
+      { "name": "CSS Grid", "path": "HTML y CSS/grid/calculadora_01.html" },
       { "name": "Estilos en línea", "path": "HTML y CSS/estilos-en-linea.html" },
       { "name": "Selectores avanzados", "path": "HTML y CSS/selectores-avanzados.html" }
     ],
