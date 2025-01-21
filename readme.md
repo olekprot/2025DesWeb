@@ -20,6 +20,12 @@ En este respositorio de Github iremos volcando algunos de los ejercicios y prác
 
 
  ## Recursos
-
+ ### Programación:
 - [codepen](https://codepen.io/ksizorcode)
 - [picsumphotos](https://picsum.photos/)
+
+### Ui UX Inspiración / Referencias:
+- [Dribbble](htttps://dribbbble.com)
+- [Behacne](htttps://behance.com)
+- [Sketc App Resources](https://sketchappsources.com/)
+- [Figma community](https://www.figma.com/communitym)
