@@ -29,3 +29,23 @@ En este respositorio de Github iremos volcando algunos de los ejercicios y prác
 - [Behacne](htttps://behance.com)
 - [Sketc App Resources](https://sketchappsources.com/)
 - [Figma community](https://www.figma.com/communitym)
+
+
+### Videos de Interés
+#### Youtuvers
+- [Midu Dev](https://midu.dev/)
+- [Kevin Power](https://www.youtube.com/@KevinPowell)
+- [Kevin Power](https://www.youtube.com/@KevinPowell)
+- [Kevin Power](https://www.youtube.com/@KevinPowell)
+- [Kevin Power](https://www.youtube.com/@KevinPowell)
+- [Kevin Power](https://www.youtube.com/@KevinPowell)
+
+
+
+##### Conceptos Estrucutras Ui
+- Los principios de la eurística
+- sketchmorphism
+- Neomorphism
+- Glasmorphism
+- Masonry - Estrucutra de Layout en cascada
+- Bento boxes
