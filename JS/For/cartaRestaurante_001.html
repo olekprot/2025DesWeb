@@ -61,11 +61,22 @@
         let libreta='<ul>';
         
         for(i=0;i<menu.length; i++){
+            //repetimos esta estructura en cada iteración
             libreta+='<li>';
-            libreta+='<strong>'+menu[i].nombre+'</strong>';
-            libreta+='<p>'+menu[i].descripcion+'</p>';
-            libreta+='<span>'+menu[i].precio+',00 €</span>';
+                libreta+='<strong>'+menu[i].nombre+'</strong>';
+                libreta+='<p>'+menu[i].descripcion+'</p>';
+                libreta+='<span>'+menu[i].precio+',00 €</span>';
             libreta+='</li>';
+
+            // Lo mismo pero con comillas graves:
+            libreta+=`
+                <li>
+                    <strong>${menu[i].nombre}</strong>
+                    <p>${menu[i].descripcion}</p>
+                    <span>${menu[i].precio},00 €</span>
+                </li>`;
+
+
         }
 
         libreta+='</ul>';
