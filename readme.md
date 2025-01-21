@@ -1,4 +1,10 @@
 # Respositorio Curso: Desarrollo de Aplicaciones con Tecnologáis Web
+
+
+Curso IFCD0210 - Desarrollo de Aplicaciones con Tecnología Web 590 horas(con prácticas de 80 horas incluidas) utilizando tecnologías Html, CSS, Javascript, php, mysql Más información
+
+https://ksizorcode.github.io/2025DesWeb/
+
 ## Este es el markdown readme.md del curso de Dicampus (2025)
 En este respositorio de Github iremos volcando algunos de los ejercicios y prácticas llevadas a cabo durante el curso
 
@@ -11,3 +17,9 @@ En este respositorio de Github iremos volcando algunos de los ejercicios y prác
 - Módulo Formativo 2
  - Unidad Formativa 2.1
  - Unidad Formativa 2.1
+
+
+ ## Recursos
+
+- [codepen](https://codepen.io/ksizorcode)
+- [picsumphotos](https://picsum.photos/)
