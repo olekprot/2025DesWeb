@@ -80,7 +80,7 @@
             <button onclick="aleat()">Aleatorio</button>
         </div>
     </header>
-    <div id="contenido"></div>
+    <div id="contenido">Aquí las cosas</div>
 
     <script>
 
@@ -106,6 +106,32 @@
             document.getElementById('contenido').innerHTML = '<img src="img/explosion.gif" alt=""><h1>Estos no son los Androides que buscáis</h1>';
         }
 
+
+
+
+        //peli - muestra la ficha de la pelicula
+        function peli(valor) {
+            numPeli = valor - 1;
+            dibujar();
+        }
+
+        //dibujar
+        function dibujar() {
+            let miHTML = `
+            <img src="img/${datos[numPeli][1]}" alt="">
+            <h1>${datos[0][0]}</h1>
+            <p>${datos[0][2]}</p>
+            `;
+            document.getElementById('contenido').innerHTML = miHTML;
+        }
+
+
+
+
+
+
+
+
         //siguiente - incrementa numPeli y muestra la ficha de la siguiente pelicula
         function siguiente() {
             numPeli++;
@@ -124,21 +150,6 @@
             dibujar();
         }
 
-        //peli - muestra la ficha de la pelicula
-        function peli(valor) {
-            numPeli = valor - 1;
-            dibujar();
-        }
-
-        //dibujar
-        function dibujar() {
-            let miHTML = `
-            <img src="img/${datos[numPeli][1]}" alt="">
-            <h1>${datos[0][0]}</h1>
-            <p>${datos[0][2]}</p>
-            `;
-            document.getElementById('contenido').innerHTML = miHTML;
-        }
 
 
         //todas - muestra todas las fichas
