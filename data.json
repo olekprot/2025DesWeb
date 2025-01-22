@@ -5,6 +5,8 @@
       { "name": "Selectores avanzados", "path": "HTML y CSS/selectores-avanzados.html" }
     ],
     "JavaScript": [
+      { "name": "Funciones Básicas STARWARS 👽👽👽", "path": "JS/3_funciones/pelisStarWars" },
+
       { "name": "Hola Mundo", "path": "JavaScript/hola-mundo.html" },
       { "name": "Eventos básicos", "path": "JavaScript/eventos-basicos.html" },
       { "name": "Manipulación del DOM", "path": "JavaScript/manipulacion-dom.html" }
