@@ -68,6 +68,10 @@ https://github.com/crisdevux/ejercicios-javascript
 ### Recursos Ui
 - https://www.easyui.pro
 
+
+
+https://web.dev/learn/javascript
+
 ### Codepens Populares:
 - [Popular Codepen 2025](https://codepen.io/2025/popular/pens)
 - [Popular Codepen 2024](https://codepen.io/2024/popular/pens)
