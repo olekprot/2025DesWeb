@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Curso</title>
+    <style>
+        :root {
+            --c1: lightseagreen;
+            --ff: sans-serif;
+        }
+
+        html {
+            padding: 10px;
+            background-color: var(--c1);
+        }
+
+        body {
+            font-family: var(--ff);
+            max-width: 960px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul#miLista li {
+            outline: solid 1px grey;
+            border-radius: 8px;
+            padding: 3px;
+            margin-bottom: 7px;
+            ;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--c1)
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Curso de Desarrollo de Aplicaciones con Tecnologías Web</h1>
+        <ul id="miLista"></ul>
+    </main>
+    <footer>
+        <p>Curso de Desarrollo Web con tecnología movil</p>
+    </footer>
+
+    <script>
+        // Función para cargar el JSON externo y crear la lista
+        async function loadFileList() {
+            try {
+                const response = await fetch('data.json'); // Carga el archivo JSON
+                if (!response.ok) throw new Error('Error al cargar el archivo JSON');
+
+                const files = await response.json(); // Convierte la respuesta en JSON
+                let miHTML = ''; // Variable para construir el HTML
+
+                // Crear la estructura del HTML como una cadena
+                for (const [category, items] of Object.entries(files)) {
+                    miHTML += `<h2>${category}</h2>`;
+                    items.forEach(file => {
+                        miHTML += `<li><a href="${file.path}" target="_blank">${file.name}</a></li>`;
+                    });
+                    miHTML += `</ul></li>`;
+                }
+
+                // Insertar el HTML generado en el contenedor
+                document.getElementById('miLista').innerHTML = miHTML;
+            } catch (error) {
+                console.error('Error:', error.message);
+            }
+        }
+
+        // Llamar a la función para cargar y mostrar la lista
+        loadFileList();
+    </script>
+
+</body>
+
+</html>
